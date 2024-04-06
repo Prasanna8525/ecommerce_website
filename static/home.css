@@ -1,0 +1,364 @@
+
+.stylinglogo {
+    width:95px;
+    height: 60px;
+
+}
+#go{
+    color: rgb(20, 18, 18); 
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: -40px -40px;
+    box-shadow: rgba(6, 130, 188, 0.25);
+    color: rgb(235, 27, 27);
+    height: 60px;
+    /* width: -5px; */
+    border-radius: 15px;  
+    cursor: pointer;
+    transition: opacity 0.15s;
+    font-weight: bold;
+
+    border: none;
+    
+    
+}
+/* element.style {
+    border-radius: 10px;
+} */
+
+ul#go\ go-drop.dropdown-menu.show{
+    background-color: #e1e0e6;
+    border-radius: 30px;
+}
+
+#go:hover {
+    color:#5108e4;
+    opacity: 1
+    ;
+
+}
+#go1{
+    background-color:#1c0574;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: none;
+}
+#go1:hover{
+    background-color:gold;
+    color:#1c0574;
+}
+.bgimg{
+    background-image: url('https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    height: 90vh;
+    display:grid;
+    grid-row: 3;
+    grid-column: 3;
+    direction: ;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.head1{
+    font-size: 40px;
+    font-weight: bold;
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paraline{
+    color: gold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+.buttonst{
+    color:gold;
+    background-color: #1c0574;
+    width: 230px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;   
+}
+.bgcolor {
+    background-color: #f9fbfe;
+}
+.head2 {
+    color:#183b56;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+.para2 {
+    color:#5a7184;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/* .carding {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 10px;
+    border-top: 90px;
+    border-right-width: -20px;
+    border-left-width: -220px;
+    border-color: #e5eaf4;
+    border-radius: 96px; 
+    margin-left: 10%;  
+    
+} */
+
+
+.cardimage {
+    width: 87px;
+    height: 90px;
+}
+.chead{
+    color:#4b3232;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.cpara{
+    color: #ff0101;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+.bgcolor3 {
+    background-color: white;
+}
+.explorehead {
+    color: #183b56;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+.explorecards {
+    border-radius: 16px;
+}
+.cardhead4 {
+    color: #183b56;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight:bold;
+    margin-top: 24px;
+}
+.explorelink {
+    color:#c90202;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.payhead {
+    color: #183b56;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.paypara{
+    color:#183b56;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+.paybutton {
+    background-color: #c90202;
+    color:white;
+    width: 190px;
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.paycardimg {
+    width:50px;
+    height: 50px;
+    margin-right:28px;
+}
+.paymentimg{
+    width:100%;
+}
+#contact {
+    background-color: grey;
+    padding-bottom: 4em;
+}
+.socialicons {
+    font-size: 40px;
+    cursor: pointer;
+}
+#icenter {
+    text-align: center;
+}
+.fa-brands {
+    color: white;
+}
+.fa-facebook,.fa-instagram,.fa-linkidin {
+    margin:40px;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-linkedin:hover{
+    color: #c90202;
+}
+
+.navbar {
+    background-color:rgb(255, 255, 255);
+    size: cover;
+    content: left;
+}
+
+  body {
+    margin: 0;
+  }
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #160dbe;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #041d4a;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+.abc {
+    margin-top: 20px;
+    margin-left: 350px;
+}
+.abc form input{
+    width: 70%;
+    height: 30px;
+}
+
+  .def {
+    background-color: #0a0311 ;
+    
+  }
+  .navbar {
+    background-color:#e7da55 ;
+  }
+  .bgcolor{
+    background-color:#06010f;
+  }
+.qq {
+    margin-top: 15px;
+    color: #c90202;
+}
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 0px;
+    border: 1px solid transparent;
+}
+  
+  
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+ 
+
+  .button-52 {
+
+    background-color: #04AA6D;
+    color: white;
+    padding: 4px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    
+}
+.button-522 {
+
+    background-color: #e7b764;
+    color: white;
+    padding: 4px 20px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+     
+    
+}
+
+
+.form-select {
+   
+        width: 25%;
+        
+}
+ 
+.k {
+    text-align: right;
+}
+
+
+table,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
